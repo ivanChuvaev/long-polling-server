@@ -30,6 +30,7 @@ export function rotateMatrixCounterClockwise(mat: number[][]) {
     return output;
 }
 
+/** rotates matrix in any direction, clockwise by default */
 export default function rotateMatrix(
     mat: number[][],
     clockwise: boolean = true,

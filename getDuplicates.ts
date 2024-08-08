@@ -1,3 +1,4 @@
+/** returns characters of string that have duplicate in the string */
 export default function getDuplicates(str: string) {
     const map = new Map<string, boolean>();
     for (let i = 0; i < str.length; i += 1) {

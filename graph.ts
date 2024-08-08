@@ -1,3 +1,4 @@
+/** implementation of Graph */
 class Graph {
     private matrix: number[][];
     private vertices: string[];
@@ -124,27 +125,29 @@ class Graph {
     }
 }
 
-const graph = new Graph();
+// Example of usage
 
-graph.addVertex("A");
-graph.addVertex("B");
-graph.addVertex("C");
-graph.addVertex("D");
-graph.addVertex("E");
-graph.addVertex("F");
-graph.addVertex("G");
+// const graph = new Graph();
 
-graph.addEdge("A", "B");
-graph.addEdge("A", "C");
-graph.addEdge("B", "C");
-graph.addEdge("C", "E");
-graph.addEdge("F", "G");
+// graph.addVertex("A");
+// graph.addVertex("B");
+// graph.addVertex("C");
+// graph.addVertex("D");
+// graph.addVertex("E");
+// graph.addVertex("F");
+// graph.addVertex("G");
 
-graph.print();
+// graph.addEdge("A", "B");
+// graph.addEdge("A", "C");
+// graph.addEdge("B", "C");
+// graph.addEdge("C", "E");
+// graph.addEdge("F", "G");
 
-console.log("graph order", graph.getGraphOrder());
-console.log("graph size", graph.getGraphSize());
-console.log("graph depth-first search from A", graph.dfs("A"));
-console.log("graph breadth-first search from A", graph.bfs("A"));
-console.log("graph dfs from D", graph.dfs("D"));
-console.log("graph dfs from F", graph.dfs("F"));
+// graph.print();
+
+// console.log("graph order", graph.getGraphOrder());
+// console.log("graph size", graph.getGraphSize());
+// console.log("graph depth-first search from A", graph.dfs("A"));
+// console.log("graph breadth-first search from A", graph.bfs("A"));
+// console.log("graph dfs from D", graph.dfs("D"));
+// console.log("graph dfs from F", graph.dfs("F"));

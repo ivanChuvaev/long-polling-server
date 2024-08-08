@@ -1,3 +1,4 @@
+/** calculates determinant of matrix */
 export default function determinant(mat: number[][]): number {
     if (mat.length === 1) {
         return mat[0][0];
